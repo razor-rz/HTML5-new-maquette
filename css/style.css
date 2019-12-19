@@ -1,0 +1,243 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.slider {
+    background-color: #3f3f3f;
+    background-image: url(../img/slider-photo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 1022px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 185px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo-icon {
+    fill: CurrentColor;
+}
+
+.logo-txt {
+    font-family: "Raleway", sans-serif;
+    font-size: 34px;
+}
+
+.logo:hover {
+    color: #c7b299;
+}
+
+.logo:active {
+    color: #f6b388;
+}
+
+.slider-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 38px 371px 0 371px;
+    margin: 0 0 285px 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 0px;
+    margin: 20px 0 0 175px;
+}
+
+.menu-list {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0 0 25px;
+}
+
+.menu-link:hover {
+    color: #c7b299;
+}
+
+.menu-link:active {
+    color: #f6b388;
+}
+
+.icon-cart {
+    background-image: url(../img/icon-cart.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 25px;
+    display: block;
+    margin: 15px 0 0 56px;
+}
+
+.submit {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background: url(../img/icon-search.png) 50% no-repeat;
+    border: none;
+    margin: 15px 0 0 20px;
+}
+
+.slider-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px 322px 150px;
+}
+
+.pointer-left:before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 3em;
+    height: 3em;
+    border-right: 0.2em solid #a3a2a0;
+    border-top: 0.2em solid #a3a2a0;
+    transform: rotate(225deg);
+    margin-left: 0.8em;
+}
+
+.pointer-left:hover:before {
+    border-color: #d3c1ad;
+}
+
+.pointer-left:active:before {
+    border-color: #f6b388;
+}
+
+.slider-main-title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.slider-main-title-h2 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    margin: 0 0 18px 0;
+}
+
+.slider-main-title-h1 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    margin: 0 0 18px 0;
+    letter-spacing: 2px;
+}
+
+.slider-main-text {
+    width: 565px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    margin: 0 0 50px 0;
+    letter-spacing: 0.5px;
+}
+
+/*========КНОПКА========*/
+.main-button {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #998675;
+    border-bottom: 2px solid #736357;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 18px 0px 16px 0;
+    text-align: center;
+    width: 170px;
+}
+
+.main-button:hover {
+    background-color: #c7b299;
+}
+
+.main-button:active {
+    background-color: #f6b388;
+}
+
+.pointer-right:before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 3em;
+    height: 3em;
+    border-right: 0.2em solid #a3a2a0;
+    border-top: 0.2em solid #a3a2a0;
+    transform: rotate(45deg);
+    margin-right: 0.8em;
+}
+
+.pointer-right:hover:before {
+    border-color: #d3c1ad;
+}
+
+.pointer-right:active:before {
+    border-color: #f6b388;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.sircle {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 8px;
+}
+
+.sircle-active {
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #cfbeaa;
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    margin: 6px 8px 0 8px;
+}
+
+.sircle:hover {
+    opacity: 0.8;
+}
